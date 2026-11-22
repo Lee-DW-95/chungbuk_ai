@@ -1,0 +1,19 @@
+# 원본/대용량 데이터 (스크립트로 재생성 가능)
+data/
+datasets/
+*.webm
+yolov8n.pt
+yolo11n.pt
+
+# 학습 산출물 중 대용량/중간 파일 (best.pt, 그래프는 results/ 로 복사해 커밋)
+runs/
+
+__pycache__/
+*.pyc
+.venv/
+
+# 학습 콘솔 로그 (진행바 포함, 대용량)
+train_log*.txt
+
+# 제출용 보고서 (학번 등 개인정보 포함, LMS에만 제출)
+*.docx
